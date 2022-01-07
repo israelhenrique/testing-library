@@ -1,5 +1,0 @@
-<div class="row" *ngFor="let item of items; let i = index">
-  <button (click)="showContent(i)">Show {{item.title}} content</button>
-  <div *ngIf="i === openIndex">{{ item.content }}</div>
-<!--  <div *ngIf="openIndexes.includes(i)">{{ item.content }}</div>-->
-</div>
